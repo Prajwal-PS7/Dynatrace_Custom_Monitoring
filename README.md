@@ -11,9 +11,9 @@ This automation script is specifically designed to facilitate seamless integrati
 The script automates the process of fetching relevant monitoring data from a custom-built tool and transmitting it to the Dynatrace dashboard for centralized visibility. It interacts with Dynatrace’s REST API endpoints to push and retrieve monitoring metrics, logs, and system health data, enabling IT and DevOps teams to gain deeper insights into system performance, anomalies, and potential issues.
 
 By implementing this script, organizations can enhance their monitoring strategy, improve incident detection and resolution times, and maximize operational efficiency.
-
-## Usage
 <!--
+## Usage
+
 1. **Download the Script:**
 
    Download the script to the target Unix-based system where UDAgent is installed.
@@ -99,5 +99,5 @@ This script is released under the [MIT License](LICENSE). @Copyleft
 
 This script is provided as-is without any warranty. Use it at your own risk and ensure that you understand its impact on your system before execution.
 
-For detailed information about the Universal Discovery Agent (UDAgent) and its configuration, refer to the official documentation provided by the OEM (MicroFocus / OpenText).
+For detailed information about the 3rd party integration and its configuration, refer to the official documentation provided by the OEM (Dynatrace).
 
