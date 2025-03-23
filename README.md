@@ -6,7 +6,7 @@ This automation script is designed to integrate the custom tool with Dynatrace u
 
 ## Overview
 
-This automation script is specifically designed to facilitate seamless integration between a custom tool and Dynatrace using the Dynatrace REST API. By leveraging out-of-the-box integration, the script enables efficient data exchange between the monitoring tool and Dynatrace, ensuring real-time insights and enhanced observability.
+This automation script is specifically designed to facilitate seamless integration between a custom Application and Dynatrace using the Dynatrace REST API. By leveraging out-of-the-box integration, the script enables efficient data exchange between the monitoring tool and Dynatrace, ensuring real-time insights and enhanced observability.
 
 The script automates the process of fetching relevant monitoring data from a custom-built tool and transmitting it to the Dynatrace dashboard for centralized visibility. It interacts with Dynatrace’s REST API endpoints to push and retrieve monitoring metrics, logs, and system health data, enabling IT and DevOps teams to gain deeper insights into system performance, anomalies, and potential issues.
 
