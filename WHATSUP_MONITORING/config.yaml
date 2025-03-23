@@ -1,0 +1,93 @@
+ENV_URI: "https://127.0.0.1/x/123-456a-789b-487e-wer5s-258c6482p654/api/v2/metrics/ingest"
+Api_Token: "dt0c01.<DYNATRACE_API_TOKEN>"
+log_level: "DEBUG"  # Change to INFO/DEBUG for detailed logs
+log_retention_days: 7  # Number of days to retain logs
+# Define timeout options
+connect_timeout: "10"  # Timeout for api call connection phase (in seconds)
+max_time: "15"         # Timeout for api call the entire request (in seconds)
+
+functions:
+  function1:
+    server: "192.168.157.10"
+    username: "<testuser>"
+    bankname: "bankA"
+    remote_input_file: "/opt/<testuser>/QUEUE_DEPTH_MONITORING_DT/bankA/bc.txt"
+    local_file: "/opt/dynatrace/Custom_Monitoring/WHATSUP_MONITORING/outfile/bankA/bc.txt"
+  function2:
+    server: "10.32.32.211"
+    username: "dynosusr"
+    bankname: "CHGB"
+    remote_input_file: "/home/dynosusr/QUEUE_DEPTH_MONITORING_DT/CHGB/bc.txt"
+    local_file: "/home/dynatrace/Custom_Monitoring/WHATSUP_MONITORING/outfile/CHGB/bc.txt"
+  function3:
+    server: "10.32.32.217"
+    username: "dynosusr"
+    bankname: "UKGB"
+    remote_input_file: "/home/dynosusr/QUEUE_DEPTH_MONITORING_DT/UKGB/bc.txt"
+    local_file: "/home/dynatrace/Custom_Monitoring/WHATSUP_MONITORING/outfile/UKGB/bc.txt"
+  function4:
+    server: "10.32.32.204"
+    username: "dynosusr"
+    bankname: "SRGB"
+    remote_input_file: "/home/dynosusr/QUEUE_DEPTH_MONITORING_DT/SRGB/bc.txt"
+    local_file: "/home/dynatrace/Custom_Monitoring/WHATSUP_MONITORING/outfile/SRGB/bc.txt"
+  function5:
+    server: "10.32.32.218"
+    username: "dynosusr"
+    bankname: "MRGB"
+    remote_input_file: "/home/dynosusr/QUEUE_DEPTH_MONITORING_DT/MRGB/bc.txt"
+    local_file: "/home/dynatrace/Custom_Monitoring/WHATSUP_MONITORING/outfile/MRGB/bc.txt"
+  function6:
+    server: "10.32.32.220"
+    username: "dynosusr"
+    bankname: "ELGB"
+    remote_input_file: "/home/dynosusr/QUEUE_DEPTH_MONITORING_DT/ELGB/bc.txt"
+    local_file: "/home/dynatrace/Custom_Monitoring/WHATSUP_MONITORING/outfile/ELGB/bc.txt"
+  function7:
+    server: "10.32.32.223"
+    username: "dynosusr"
+    bankname: "NGRB"
+    remote_input_file: "/home/dynosusr/QUEUE_DEPTH_MONITORING_DT/NGRB/bc.txt"
+    local_file: "/home/dynatrace/Custom_Monitoring/WHATSUP_MONITORING/outfile/NGRB/bc.txt"
+  function8:
+    server: "10.32.32.221"
+    username: "dynosusr"
+    bankname: "MZGB"
+    remote_input_file: "/home/dynosusr/QUEUE_DEPTH_MONITORING_DT/MZGB/bc.txt"
+    local_file: "/home/dynatrace/Custom_Monitoring/WHATSUP_MONITORING/outfile/MZGB/bc.txt"
+  function9:
+    server: "10.32.32.216"
+    username: "dynosusr"
+    bankname: "VCGB"
+    remote_input_file: "/home/dynosusr/QUEUE_DEPTH_MONITORING_DT/VCGB/bc.txt"
+    local_file: "/home/dynatrace/Custom_Monitoring/WHATSUP_MONITORING/outfile/VCGB/bc.txt"
+  function10:
+    server: "10.32.32.207"
+    username: "dynosusr"
+    bankname: "TGB"
+    remote_input_file: "/home/dynosusr/QUEUE_DEPTH_MONITORING_DT/TGB/bc.txt"
+    local_file: "/home/dynatrace/Custom_Monitoring/WHATSUP_MONITORING/outfile/TGB/bc.txt"
+  function11:
+    server: "10.32.32.208"
+    username: "dynosusr"
+    bankname: "MBGB"
+    remote_input_file: "/home/dynosusr/QUEUE_DEPTH_MONITORING_DT/MBGB/bc.txt"
+    local_file: "/home/dynatrace/Custom_Monitoring/WHATSUP_MONITORING/outfile/MBGB/bc.txt"
+  function12:
+    server: "10.32.32.219"
+    username: "dynosusr"
+    bankname: "MGRB"
+    remote_input_file: "/home/dynosusr/QUEUE_DEPTH_MONITORING_DT/MGRB/bc.txt"
+    local_file: "/home/dynatrace/Custom_Monitoring/WHATSUP_MONITORING/outfile/MGRB/bc.txt"
+  function13:
+    server: "10.32.32.224"
+    username: "dynosusr"
+    bankname: "ACRB"
+    remote_input_file: "/home/dynosusr/QUEUE_DEPTH_MONITORING_DT/ACRB/bc.txt"
+    local_file: "/home/dynatrace/Custom_Monitoring/WHATSUP_MONITORING/outfile/ACRB/bc.txt"
+  function14:
+    server: "10.32.32.206"
+    username: "dynosusr"
+    bankname: "UTGB"
+    remote_input_file: "/home/dynosusr/QUEUE_DEPTH_MONITORING_DT/UTGB/bc.txt"
+    local_file: "/home/dynatrace/Custom_Monitoring/WHATSUP_MONITORING/outfile/UTGB/bc.txt"
