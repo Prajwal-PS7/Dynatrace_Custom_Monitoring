@@ -1,0 +1,76 @@
+2025-01-27 19:20:04,999 - INFO - Curl response: {"linesOk":23,"linesInvalid":0,"error":null,"warnings":null}
+2025-01-27 19:20:05,006 - INFO - Curl response: {"linesOk":21,"linesInvalid":0,"error":null,"warnings":null}
+2025-01-27 19:20:05,062 - INFO - Curl response: {"linesOk":21,"linesInvalid":0,"error":null,"warnings":null}
+2025-01-27 19:20:05,066 - INFO - File processed successfully
+2025-01-27 19:20:05,066 - ERROR - No valid queue data found to send to Dynatrace
+2025-01-27 19:20:05,091 - INFO - File processed successfully
+2025-01-27 19:20:05,092 - INFO - Executing curl command: curl -k -X 'POST' 'https://127.0.0.1/x/123-456a-789b-487e-wer5s-258c6482p654/api/v2/metrics/ingest' -H 'accept: application/json; charset=utf-8' -H 'Authorization: Api-Token dt0c01.<DYNATRACE_API_TOKEN>' -H 'Content-Type: text/plain; charset=utf-8' -d 'XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AB1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AC1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AD1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AE1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AF1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AG1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AH1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AI1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AJ1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AK1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AL1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AM1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AN1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AO1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AP1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AQ1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AR1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AS1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AT1 1' --connect-timeout 10 --max-time 15
+2025-01-27 19:20:05,129 - INFO - File processed successfully
+2025-01-27 19:20:05,129 - INFO - Executing curl command: curl -k -X 'POST' 'https://127.0.0.1/x/123-456a-789b-487e-wer5s-258c6482p654/api/v2/metrics/ingest' -H 'accept: application/json; charset=utf-8' -H 'Authorization: Api-Token dt0c01.<DYNATRACE_API_TOKEN>' -H 'Content-Type: text/plain; charset=utf-8' -d 'XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1' --connect-timeout 10 --max-time 15
+2025-01-27 19:20:05,142 - INFO - Curl response: {"linesOk":19,"linesInvalid":0,"error":null,"warnings":null}
+2025-01-27 19:20:05,156 - INFO - Curl response: {"linesOk":22,"linesInvalid":0,"error":null,"warnings":null}
+2025-01-27 19:20:05,229 - INFO - File processed successfully
+2025-01-27 19:20:05,230 - ERROR - No valid queue data found to send to Dynatrace
+2025-01-27 19:20:05,260 - INFO - File processed successfully
+2025-01-27 19:20:05,260 - INFO - Executing curl command: curl -k -X 'POST' 'https://127.0.0.1/x/123-456a-789b-487e-wer5s-258c6482p654/api/v2/metrics/ingest' -H 'accept: application/json; charset=utf-8' -H 'Authorization: Api-Token dt0c01.<DYNATRACE_API_TOKEN>' -H 'Content-Type: text/plain; charset=utf-8' -d 'XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1
+XYZ.ABC,host=<TARGET_SERVER_A_IP>,bankname=bankA,replica=1,queuename=AA1 1' --connect-timeout 10 --max-time 15
+2025-01-27 19:20:05,278 - INFO - Curl response: {"linesOk":21,"linesInvalid":0,"error":null,"warnings":null}
+2025-01-27 19:20:05,355 - INFO - Curl response: {"linesOk":23,"linesInvalid":0,"error":null,"warnings":null}
+2025-01-27 19:20:05,406 - INFO - Curl response: {"linesOk":21,"linesInvalid":0,"error":null,"warnings":null}
+2025-01-27 19:20:05,471 - INFO - Curl response: {"linesOk":21,"linesInvalid":0,"error":null,"warnings":null}
