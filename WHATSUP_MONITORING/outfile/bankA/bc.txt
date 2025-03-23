@@ -1,1 +1,23 @@
-
+      1    AA1
+      1    AB2
+      2    ACS
+      1    AD1
+      4    AEF
+      1    AFA
+      3    AGP
+      4    AG1
+      2    AI2
+      1    AJ5
+      1    AKM
+      1    ALC
+      4    AMN
+      1    AN1
+      1    AO2
+      2    APN
+      1    AQR
+      1    ARL
+      1    ASM
+      1    ATR
+      1    AUV
+      1    AVI
+      1    AWS
