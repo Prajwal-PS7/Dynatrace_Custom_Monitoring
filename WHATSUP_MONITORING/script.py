@@ -138,7 +138,7 @@ def parse_input_file(input_file):
 def send_to_dynatrace(queue_data, env_uri, api_token, server, bankname):
     try:
         data = "\n".join([
-            f"Host.whatsup,host={server},bankname={bankname},replica={status['replica']},queuename={status['queuename']} {status['replica']}"
+            f"XYZ.ABC,host={server},bankname={bankname},replica={status['replica']},queuename={status['queuename']} {status['replica']}"
             for queue, status in queue_data.items()
         ])
 
