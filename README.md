@@ -13,7 +13,7 @@ The script automates the process of fetching relevant monitoring data from a cus
 By implementing this script, organizations can enhance their monitoring strategy, improve incident detection and resolution times, and maximize operational efficiency.
 
 ## Usage
-
+<!--
 1. **Download the Script:**
 
    Download the script to the target Unix-based system where UDAgent is installed.
@@ -86,7 +86,7 @@ Open a command prompt and type below command :
 
 - **Logging:**
   As of now there is no logs creating for the script for troubleshooting. You can review the On-Screen Instructions to identify issue occurs during the regeneration process.
-
+-->
 ## Contributing
 
 Feel free to contribute to the improvement of this script by submitting pull requests or reporting issues.
